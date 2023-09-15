@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav-logo">
+          <img
+            src="https://images.squarespace-cdn.com/content/v1/59f050f4edaed8e2b6dc5a1e/1509044011018-UKR98VFRGVSE8MPHLFXX/FENIX+LOGO+transparent+vit-svart.png?format=1500w"
+            alt="logo"
+          />
+        </div>
+        <div class="nav-link">
+          <a href="#landing">Home</a>
+          <a href="#popular">Popular Movies</a>
+        </div>
+      </nav>
+    </header>
+    <section class="hero-section">
+      <div class="hero-background">
+        <img src="https://images3.alphacoders.com/104/1041825.jpg" alt="bg" />
+        <div class="hero-detail">
+          <h1>Joker</h1>
+          <div class="hero-desc">
+            <p>
+              Forever alone in a crowd, failed comedian Arthur Fleck seeks
+              connection as he walks the streets of Gotham City. Arthur wears
+              two masks -- the one he paints for his day job as a clown, and the
+              guise he projects in a futile attempt to feel like he's part of
+              the world around him. Isolated, bullied and disregarded by
+              society, Fleck begins a slow descent into madness as he transforms
+              into the criminal mastermind known as the Joker.
+            </p>
+            <div style="margin-top: 20px">
+              <a href="#popular" class="hero-button">See Another Movie</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-category">
+      <h3 class="section-title">Category</h3>
+      <div class="section-sub-title">
+        The Most Up-To-Date And Complete Archive Of Movies And Series
+      </div>
+      <div class="category container">
+        <div class="category-item">
+          <img src="./img/ghost.png" alt="category" class="category-img" />
+          <div class="category-name">Horror</div>
+        </div>
+        <div class="category-item">
+          <img src="./img/gun.png" alt="category" class="category-img" />
+          <div class="category-name">Action</div>
+        </div>
+        <div class="category-item">
+          <img src="./img/cinema.png" alt="category" class="category-img" />
+          <div class="category-name">Comedy</div>
+        </div>
+        <div class="category-item">
+          <img src="./img/hearts.png" alt="category" class="category-img" />
+          <div class="category-name">Romance</div>
+        </div>
+        <div class="category-item">
+          <img src="./img/dragon.png" alt="category" class="category-img" />
+          <div class="category-name">Fantasy</div>
+        </div>
+        <div class="category-item">
+          <img src="./img/people.png" alt="category" class="category-img" />
+          <div class="category-name">Drama</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-popular" id="popular">
+      <h3 class="section-title white">Popular Movies</h3>
+      <div class="section-sub-title">
+        Introducing <span class="bold">Popular</span> Movies And Series Of The
+        Week
+      </div>
+      <div class="movies container"></div>
+    </section>
+
+    <div class="modal">
+      <div class="wrapper">
+        <div class="card">
+          <div class="close-btn">X</div>
+          <h1 id="modal-title">Fast X</h1>
+          <div class="card-body">
+            <!-- <img
+              src="https://image.tmdb.org/t/p/w500/4XM8DUTQb3lhLemJC51Jx4a2EuA.jpg"
+              alt="image-detail"
+              id="modal-image"
+            /> -->
+            <iframe frameborder="0" allowfullscreen> </iframe>
+            <div class="detail" id="modal-desc">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptate reprehenderit quae modi quis, consequuntur dignissimos
+              ducimus rem molestias dolore officia sunt, tempora unde odit error
+              deleniti repellendus dolor ipsam voluptates?
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
